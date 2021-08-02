@@ -34,19 +34,19 @@ void load(){
 	Sleep(600);
 	cout<<"Loading thanh cong"<<endl;
 	Sleep(100);
-//	cout<<"Ban vui long doi de chung toi in ra anh nguoi yeu ban"<<endl;
-//	Sleep(800);
+	cout<<"Ban vui long doi de chung toi in ra anh nguoi yeu ban"<<endl;
+	Sleep(800);
 	
 }
 int main(){
-//	cout<<"Hay nhap ten cua nguoi yeu ban: "<<endl;
+	cout<<"Hay nhap ten cua nguoi yeu ban: "<<endl;
 	string lin;
-//	getline(cin,lin);
-//	cout<<"Nhap ngay thang nam sinh cua nguoi yeu ban"<<endl;
+	getline(cin,lin);
+	cout<<"Nhap ngay thang nam sinh cua nguoi yeu ban"<<endl;
 	getline(cin,lin);
 	string line;
 	load();
-	ifstream f("anhcb.txt");
+	ifstream f("ha.txt");
 	while(!f.eof()){
 		getline(f,line);
 		cout<<line<<endl;
